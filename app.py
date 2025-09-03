@@ -144,7 +144,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Direct API key configuration
-GEMINI_API_KEY = "AIzaSyCgXMaApaRCVy3SmMZZxD-TL74COecTsgQ"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # Configure the API if a key is provided
 if GEMINI_API_KEY and GEMINI_API_KEY.strip():
@@ -630,3 +630,4 @@ if not st.session_state.authenticated:
     login_form()
 else:
     main_app()
+
